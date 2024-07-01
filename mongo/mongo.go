@@ -14,8 +14,8 @@ import (
 	"gofr.dev/pkg/errors"
 )
 
-// const connectionString = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.0"
-const connectionString = "mongodb+srv://yashylibrary:yashy@cluster0.if9dil8.mongodb.net/?retryWrites=true&w=majority"
+const connectionString = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.0"
+//const connectionString = "mongodb+srv://yashylibrary:yashy@cluster0.if9dil8.mongodb.net/?retryWrites=true&w=majority"
 
 const dbName = "library"
 const collectionName = "bookShelf"

@@ -1,12 +1,14 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/yashaswi-kohli/BasicAPI/controller"
 	"gofr.dev/pkg/gofr"
 )
 
 func main() {
-
+	fmt.Println("starting")
 	app := gofr.New()
 
 	app.GET("/books", controller.GetBooks)
@@ -16,6 +18,5 @@ func main() {
 	app.PUT("/books/{isbn}", controller.UpdateBook)
 	app.DELETE("/books/{isbn}", controller.DeleteBook)
 
-	// It start's the server on port 8000
 	app.Start()
 }

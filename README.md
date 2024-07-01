@@ -2,6 +2,12 @@
 
 This is a simple and user-friendly REST API for managing a library's book collection. The API provides endpoints to perform various operations, such as retrieving all books, fetching a particular book by ISBN or author, updating existing book information, creating new books, and deleting books from the library. Implemented in Go with GoFr framework and MongoDB, the system showcases CRUD operations, and seamless database integration.
 
+## Endpoints
+```
+http://localhost:2121/metrics
+http://localhost:8000/.well-known/health-check
+```
+
 ## Getting Started
 
 1. Clone the repository:
